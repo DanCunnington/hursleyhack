@@ -1,0 +1,131 @@
+html, body {
+	height: 100%;
+	
+}
+
+@font-face {
+    font-family: consolasbold;
+    src: url(/fonts/consolab.ttf);
+}
+
+.content {
+	overflow-y: scroll;
+	background-color:#222728;
+	color:#000;
+    max-height: 100%;
+    height:100%;
+    padding: 20px;
+}
+.controls {
+	overflow-x: hidden;
+	max-height: 100%;
+    height:100%;
+    background-color: #e9e9e9;
+    padding-left: 20px;
+	padding-top: 20px;
+}
+.main {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+.container-fluid {
+	height: 100%;
+}
+
+/*When browser is less than 770px width*/
+@media (max-width: 770px) {
+	html,body {
+		height: auto;
+		background-color:#222728;
+
+	}
+	.content {
+		overflow-y:visible;
+	}
+	.controls {
+		display: none;
+	}
+}
+
+.laptop {
+	max-width: 100%;
+	padding-top: 5%;
+}
+
+.laptop img {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	height: auto;
+}
+
+h3.strapline {
+	text-align: center;
+	padding-top: 5%;
+	color: #66d9ef;
+	font-family: consolasbold;
+	font-size: 320%;
+}
+
+h3.date {
+	text-align: center;
+	padding-top: 5%;
+	color: #a6e22e;
+	font-family: consolasbold;
+	font-size: 250%;
+}
+h3.location {
+	text-align: center;
+	padding-top: 0%;
+	color: #a6e22e;
+	font-family: consolasbold;
+	font-size: 250%;
+}
+
+
+.signup-button-container {
+	padding-top: 5%;
+}
+
+.signup-button-container button {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	height: auto;
+
+}
+
+i.fa-arrow-right {
+	padding-left: 10px;
+}
+
+
+ul.nav li a {
+	color: #222728;
+	font-size: 150%;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+ul.nav li:active {
+	background-color: transparent;
+}
+
+button.btn-default {
+	background-color: #e9e9e9;
+}
+
+h3.subheading {
+	color: #e9e9e9;
+	font-size: 280%;
+	font-family: consolasbold;
+}
+
+#overview {
+	height: 100%;
+}
+
+p {
+	color: #e9e9e9;
+}
