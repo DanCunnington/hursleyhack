@@ -31,11 +31,17 @@ html, body {
 
 /*When browser is less than 768px width*/
 @media (max-width: 1200px) {
-	
-
 	.col-space {
 		padding-bottom: 80px;
 	}	
+}
+
+@media (max-width: 768px) {
+	.signup-button-container {
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
+
+	}
 }
 
 .laptop {
