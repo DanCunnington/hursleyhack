@@ -11,15 +11,6 @@ $(document).ready(function() {
 	    }, 1000);
 	});
 
-	$(window).resize(function() {
-		if ($(window).width() < 1710) {
-			$(".content").removeClass("col-sm-11");
-			$(".content").addClass("col-sm-12");
-		} else {
-			$(".content").removeClass("col-sm-12");
-			$(".content").addClass("col-sm-11");
-		}
-	});
 });
 
 
