@@ -83,15 +83,18 @@ h3.location {
 .signup-button-container {
 	padding-top: 5%;
 	padding-bottom: 5%;
+	margin: 0 auto;
+	max-width: 100%;
+	text-align: center;
+
 }
 
 .signup-button-container button {
-	max-width: 100%;
-	margin: 0 auto;
-	display: block;
-	height: auto;
-	text-align: center;
+	display: inline-block;
+}
 
+.signup-button-container button:first-child {
+ 	margin-right: 20px;
 }
 
 i.fa-arrow-right {
