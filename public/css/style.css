@@ -40,7 +40,18 @@ html, body {
 	.signup-button-container {
 		padding-top: 50px !important;
 		padding-bottom: 50px !important;
+		text-align: center;
 
+	}
+
+	.signup-button-container button {
+		display: block !important;
+		margin: 0 auto !important;
+		max-width: 100% !important;
+	}
+
+	button.team-signup {
+		margin-top: 20px !important;
 	}
 }
 
