@@ -33,6 +33,10 @@ html, body {
 @media (max-width: 1200px) {
 	.col-space {
 		padding-bottom: 80px;
+	}
+
+	p.details, h3.subheading {
+		text-align: center;
 	}	
 }
 
@@ -73,6 +77,14 @@ h3.strapline {
 	color: #66d9ef;
 	font-family: consolasbold;
 	font-size: 320%;
+}
+
+h4 {
+	text-align: center;
+	padding-top: 5%;
+	color: #e9e9e9;
+	font-family: consolasbold;
+	font-size: 200%;
 }
 
 h3.date {
@@ -162,5 +174,13 @@ span.pink {
 	font-weight: bold;
 }
 .spaced {
-	padding-bottom: 80px;
+	padding-bottom: 40px;
+}
+
+p.center, h3.center {
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
 }
