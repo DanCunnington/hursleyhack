@@ -48,6 +48,11 @@ html, body {
 		display: inline-block;
 		text-align: left;
 	}	
+
+	.challengesContainer {
+		text-align: center;
+		padding-top: 10%;
+	}
 }
 
 @media (max-width: 768px) {
@@ -70,6 +75,35 @@ html, body {
 
 	#countdown-cont {
 		max-width: 100%;		
+	}
+	button.challenge {
+		float: none;
+		text-align: center;
+	}
+
+	p.chal-desc {
+		max-width: 100% !important;
+	}
+
+	.content {
+		padding: 20px 20px 20px 20px !important;
+	}
+
+}
+
+@media(max-width: 1000px) {
+	p.chal-desc {
+		max-width: 60% !important;
+		margin: auto;
+		text-align: center !important;
+		padding-top: 5%;
+	}
+	#challengesContainer {
+		text-align: center;
+	}
+
+	.nospacesmall {
+		padding-bottom: 0px !important;
 	}
 }
 
@@ -124,6 +158,7 @@ h4.itin {
 	padding-bottom: 5%;
 }
 
+
 h3.date {
 	text-align: center;
 	padding-top: 5%;
@@ -141,8 +176,8 @@ h3.location {
 
 
 .signup-button-container {
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 0%;
+	padding-bottom: 2%;
 	margin: 0 auto;
 	max-width: 100%;
 	text-align: center;
@@ -201,13 +236,18 @@ span.orange {
 	font-weight: bold;
 }
 
-span.green {
+span.green{
 	color: #a6e22e;
 	font-weight: bold;
 }
 
-span.pink {
+span.pink, p.pink {
 	color: #f92672;
+	font-weight: bold;
+}
+
+span.blue {
+	color: #66d9ef;
 	font-weight: bold;
 }
 .spaced {
@@ -239,3 +279,41 @@ span.time {
 	font-family: 160%;
 	padding-right: 5%;
 }
+
+i.chal {
+	padding-left: 10px;
+}
+
+span.challenge-tag {
+	font-family: consolasbold;
+	font-size: 120%;
+	color: #e9e9e9;
+	position: relative;
+	top: 0.75em;
+}
+
+p.chal-desc {
+	line-height: 46px;
+	font-family: consolasbold;
+	font-size: 150%;
+	text-align: left;
+}
+
+span.chal-text {
+	font-family: 'Raleway', sans-serif;
+}
+
+.chalButtonCont {
+	text-align: center;
+}
+
+#challengesContainer {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+h3.challenges {
+	padding-bottom: 2%;
+}
+
+

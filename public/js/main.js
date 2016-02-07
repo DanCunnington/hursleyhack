@@ -8,6 +8,22 @@ $(document).ready(function() {
 		window.open('https://docs.google.com/forms/d/1Qlz7KJFmb1WuH-y_Iq5sus0-wJOqPlE_kUyPvhMyVBQ/viewform');
 	});
 
+  $("button.challenge-1").click(function() {
+    window.open('challenges/bankofhursley.pdf');
+  });
+
+  $("button.challenge-2").click(function() {
+    window.open('challenges/reinventingindustries.pdf');
+  });
+
+  $("button.challenge-3").click(function() {
+    window.open('challenges/socialinsights.pdf');
+  });
+
+  $("button.challenge-4").click(function() {
+    window.open('challenges/iot.pdf');
+  });
+
 	$("ul.nav li").click(function() {
 		var id = $(this).attr("rel");
 		 $('.content').animate({
@@ -15,8 +31,8 @@ $(document).ready(function() {
 	    }, 1000);
 	});
 
-	var deadline = 'February 7 2016 23:59:59 GMT+00:00';
-	initializeClock(deadline);
+	// var deadline = 'February 7 2016 23:59:59 GMT+00:00';
+	// initializeClock(deadline);
 
 
 
