@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 	$("button.signup").click(function() {
-		window.open('https://docs.google.com/forms/d/1LEo1B0uLuzGq5C3JfFNxtwxZGLIGRFaYbiHUagVCCl8/viewform');
+		window.open('http://goo.gl/forms/v5phpG4F3q');
 	});
 
 	$("button.team-signup").click(function() {
-		window.open('https://docs.google.com/forms/d/1Qlz7KJFmb1WuH-y_Iq5sus0-wJOqPlE_kUyPvhMyVBQ/viewform');
+		window.open('http://goo.gl/forms/LGffoveuvl');
 	});
 
   $("button.challenge-1").click(function() {
