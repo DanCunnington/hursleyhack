@@ -316,4 +316,14 @@ h3.challenges {
 	padding-bottom: 2%;
 }
 
+h3.highlights {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
 
+iframe.video {
+	margin: 0 auto;
+	max-width: 640px;
+	display: block;
+	padding-bottom: 2%;
+}

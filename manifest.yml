@@ -2,7 +2,7 @@ applications:
 - path: .
   memory: 256M
   instances: 1
-  domain: mybluemix.net
+  domain: stage1.eu-gb.mybluemix.net
   name: hursleyhack
   host: hursleyhack
   disk_quota: 1024M

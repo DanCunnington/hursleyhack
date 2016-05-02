@@ -24,6 +24,10 @@ $(document).ready(function() {
     window.open('challenges/iot.pdf');
   });
 
+    $("button.connections").click(function() {
+    window.open('https://w3-connections.ibm.com/blogs/434f298a-9dd3-4cda-9e84-fd5d44e707a1/entry/21_March_2016_11_30_05?lang=en_gb');
+  });
+
 	$("ul.nav li").click(function() {
 		var id = $(this).attr("rel");
 		 $('.content').animate({
@@ -31,8 +35,8 @@ $(document).ready(function() {
 	    }, 1000);
 	});
 
-	// var deadline = 'February 7 2016 23:59:59 GMT+00:00';
-	// initializeClock(deadline);
+	var deadline = 'March 11 2016 12:00:00 GMT+00:00';
+	initializeClock(deadline);
 
 
 
