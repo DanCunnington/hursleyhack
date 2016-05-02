@@ -327,3 +327,9 @@ iframe.video {
 	display: block;
 	padding-bottom: 2%;
 }
+
+#sliderFrame {
+	margin: 0 auto !important;
+	max-width: 640px !important;
+	display: block !important;
+}
